@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #nav{
+            display: flex;
+            column-gap: 20px;
+            background-color: rgba(16, 95, 165, 0.189);
+        }
+        #nav a{
+            text-decoration: none;
+            font-size: 20px;
+            padding: 20px;
+        }
+        #dropdown{
+            position: absolute;
+            top: 30px;
+            left: 200px;
+        }
+        #dropdown #btn{
+            height: 30px;
+            width: 100px;
+            background-color: rgb(220, 224, 97);
+        }
+        #dropdown-menu{
+            display: none;
+            height: 300px;
+            width: 200px;
+            background-color: pink;
+            text-align: center;
+            position: absolute;
+            top: 30px;
+            left: 40px;
+        }
+        #dropdown-menu p {
+            display: block;
+            padding: 10px;
+        }
+        #dropdown-menu p:hover{
+            background-color: white;
+        }
+        #dropdown:hover  #dropdown-menu{
+            display: block;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <a href="">color</a>
+        <a href="">flower</a>
+        <div id="dropdown">
+            <a href="" id="btn">family</a>
+            <div id="dropdown-menu">
+                <p>Mother</p>
+                <p>Mother</p>
+                <p>Mother</p>
+                <p>Mother</p>
+                <p>Mother</p>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-color: aqua;
+            height: 130px;
+            width: 100px;
+            opacity: 0;
+            /* animation-name: move;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate;
+            animation-delay: 2s; */
+            
+            animation: move 2s linear 2s 2 alternate;
+        }
+
+        @keyframes move {
+            from{
+                left: 0;
+                top: 0px;
+                background-color: aqua;
+                opacity: 0;
+            }
+            to{
+                left: 200px;
+                top: 0px;
+                opacity: 1;
+                background-color: blueviolet;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div></div>
+    
+</body>
+</html>

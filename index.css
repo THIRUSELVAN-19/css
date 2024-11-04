@@ -1,0 +1,16 @@
+*{
+background-color: azure;
+}
+
+h1{
+    color: white;
+    background-color: antiquewhite;
+}
+/* #py{
+    color: skyblue;
+    background-color: chartreuse;
+    font-size: 50px;
+} */
+.mn,#py,p{
+    color: blue;
+}

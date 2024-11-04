@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ol{
+    position: fixed;
+    top: 0;
+    left: 0;
+    list-style: none;
+    display: flex;
+    column-gap: 10px;
+    background-color: blue;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    /* justify-content: center; */
+}
+ol li{
+    padding: 16px;
+}
+ol li:hover{
+    background-color: white;
+}
+
+
+
+/*  moblie */
+@media screen  and (max-width:576px){
+    
+    ol{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        column-gap: 10px;
+        background-color: blue;
+        height: auto;
+        width: 100vh;
+        align-items: start;
+    overflow: hidden;
+
+    }
+    ol li{
+        padding: 16px;
+        color: white;
+    }
+    ol li:hover{
+        background-color: white;
+    }
+    
+}
+/*  tab */
+
+@media screen  and (min-width:577px) and (max-width:768px){
+    
+    ol{
+        list-style: none;
+        display: flex;
+        flex-direction:row;
+        column-gap: 10px;
+        background-color: blue;
+        height: auto;
+        width: 100%;
+        align-items: start;
+        overflow: hidden;
+
+    }
+    ol li{
+        padding: 16px;
+        color: white;
+    }
+    ol li:hover{
+        background-color: white;
+    }
+    
+}
+
+/*  laptop  */
+
+/*  xs - <=576px
+  sm - >=577px & <=768px 
+  md - >=769px & <=992px 
+  lg - >=993px  & <= 1200px;
+  xl - >=1201px & <=1400px
+  xxl - >=1401px
+
+
+*/

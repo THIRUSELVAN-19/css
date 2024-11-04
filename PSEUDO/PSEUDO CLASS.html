@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*  hyper link */
+        a:active{
+            color: green;
+            font-size: 30px;
+        }
+        a:link{
+            color: red;
+        }
+        a:visited{
+            color: greenyellow;
+        }
+        a:hover{
+            color: blue;
+        }
+        /*  psedo class */
+        div p:first-child{
+            color: red;
+        }
+        div p:last-child{
+            color: rgb(188, 16, 186);
+        }
+        div p:nth-child(3){
+            color: rgb(216, 160, 17);
+        }
+        /*  psedo element */
+
+        div p::first-letter{
+            color: blue;
+            font-weight: 800;
+            font-size: 20px;
+        }
+        div p::first-line{
+            background-color: rgba(165, 42, 42, 0.268);
+        }
+        div p::before{
+            content: 'Before';
+            color: cyan;
+        }
+        div p::after{
+            content: 'After';
+            color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="https://www.w3schools.com/css/css_border.asp">link</a>
+    <a href="#">home</a>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vitae voluptatum dolor aut molestiae a assumenda. Suscipit nesciunt amet, molestias ipsam enim at aliquam similique fugit dolorum architecto quo! Voluptates?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vitae voluptatum dolor aut molestiae a assumenda. Suscipit nesciunt amet, molestias ipsam enim at aliquam similique fugit dolorum architecto quo! Voluptates?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vitae voluptatum dolor aut molestiae a assumenda. Suscipit nesciunt amet, molestias ipsam enim at aliquam similique fugit dolorum architecto quo! Voluptates?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vitae voluptatum dolor aut molestiae a assumenda. Suscipit nesciunt amet, molestias ipsam enim at aliquam similique fugit dolorum architecto quo! Voluptates?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vitae voluptatum dolor aut molestiae a assumenda. Suscipit nesciunt amet, molestias ipsam enim at aliquam similique fugit dolorum architecto quo! Voluptates?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vitae voluptatum dolor aut molestiae a assumenda. Suscipit nesciunt amet, molestias ipsam enim at aliquam similique fugit dolorum architecto quo! Voluptates?</p>
+    </div>
+    
+</body>
+</html>

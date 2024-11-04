@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bubbles</title>
+    <style>
+        
+.wrapper span {
+	position: fixed;
+	bottom: -90px;
+	height: 90px;
+	width: 90px;
+	border-radius: 80%;
+	animation: animate 6s linear infinite;
+}
+.wrapper span:nth-child(1) {
+	left: 0;
+	animation-delay: .6s;
+	background-color: red;
+}
+.wrapper span:nth-child(2) {
+	left: 10%;
+	animation-delay: 3s;
+	background-color: blue;
+}
+.wrapper span:nth-child(3) {
+	left: 20%;
+	animation-delay: 2s;
+	background-color: violet;
+}
+.wrapper span:nth-child(4) {
+	left: 30%;
+	animation-delay: 5s;
+	background-color: pink;
+}
+.wrapper span:nth-child(5) {
+	left: 40%;
+	animation-delay: 4.3s;
+	background-color: orangered;
+}
+.wrapper span:nth-child(6) {
+	left: 50%;
+	animation-delay: 7s;
+	background-color: yellow;
+}
+.wrapper span:nth-child(7) {
+	left: 60%;
+	animation-delay: 4s;
+	background-color: maroon;
+}
+.wrapper span:nth-child(8) {
+	left: 70%;
+	animation-delay: 5s;
+	background-color: gray;
+}
+.wrapper span:nth-child(9) {
+	left: 80%;
+	animation-delay: 6s;
+	background-color: #000;
+}
+.wrapper span:nth-child(10) {
+	left: 90%;
+	animation-delay: 4.8s;
+	background-color: palegreen;
+}
+@keyframes animate {
+	0% {
+		bottom: 0%;
+		margin-left: 100px;
+		margin-right: 0px;
+	}
+	20% {
+		bottom: 20%;
+		margin-left: 0px;
+		margin-right: 90px;
+	}
+	40% {
+		bottom: 40%;
+		margin-left: 90px;
+		margin-right: 0px;
+	}
+	60% {
+		bottom: 60%;
+		margin-left: 0px;
+		margin-right: 90px;
+	}
+	80% {
+		bottom: 80%;
+		margin-left: 90px;
+		margin-right: 0px;
+	}
+	100% {
+		bottom: 100%;
+		margin-left: 0px;
+		margin-right: 90px;
+	}
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+
+
+    </div>
+    
+</body>
+</html>

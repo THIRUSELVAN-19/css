@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 1900px;
+    width: 1520px;
+}
+
+
+
+.class1{
+    background-color: rgb(125, 125, 243);
+    display:flex;
+    column-gap: 340px;
+}
+
+.class1 ol li {
+    display:inline;
+    text-decoration: none;
+     padding-right: 50px;
+    
+     
+}
+
+.social img{
+    display: inline-block;
+    margin-top:0px;
+    height: 15px;
+    width: 15px;  
+    padding: 5px;  
+}
+
+#idmpic{
+    padding-left: 0px;
+    height: 50px;
+
+
+}
+
+.class2{
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.nav2{
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.nav2 a{
+    text-decoration: none;
+    padding-left: 10px;
+    color: brown;
+}
+
+
+.class2 a{
+    padding-top: 10px;
+}
+
+
+
+.imdbg{
+    position:absolute;
+    height: 500px;
+    width: 1520px;
+}
+
+.imdbg2{
+    height: 450px;
+    position:absolute;
+    left: 550px;
+    top: 79px;
+}
+
+.overbox{
+    position: absolute;
+    left: 70px;
+    margin-top: 20px;
+    height: 430px;
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black inset;
+    animation: alternate;
+
+
+}
+
+.overbox #paraadd{
+    position: absolute;
+    text-align:center;
+    text-shadow: 0px 5px 10px black;
+    top: 80px;
+    left: 19px;
+
+}
+
+.overimg{
+    margin-top: 10px;
+    height: 220px;
+    width: 330px;
+    padding: 10px;
+}
+
+.detail{
+    position: absolute;
+    height: 450px;
+    width: 390px;
+    left: 20px;
+    top: 250px;
+}
+
+.detail h3{
+    text-shadow: 0px 0px 1px black;
+    display: inline;
+    padding-right: 90px;
+
+}
+
+footer p{
+    display: inline;
+}
+
+footer p a{
+    text-decoration: none;
+    padding-left: 130px;
+}
+
+
+.bg1{
+    position: absolute;
+    margin-left: 0px;
+    
+
+   
+    
+}
+
+.bg1:hover{
+    /* height: 220px;
+    width: 120px; */
+    height: 130px;
+    width: 20px;
+    transform: rotate(5deg) ;
+    transition: transform 2s;
+
+}
+
+.build {
+    background-color: antiquewhite;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.build #best{
+    margin-top: 300px;
+    margin-left: 90px;
+}

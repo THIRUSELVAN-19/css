@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    width: 100%;
+    padding-top: 10px;
+}
+ul li{
+    color: white;
+    display: inline;
+    word-spacing: 5px;
+    padding: 5px;
+}
+ul li:hover{
+    color: rgba(255, 255, 255, 0.723);
+    background-color: rgba(255, 255, 255, 0.386);
+}
+
+ol{
+    list-style: none;
+    background-color: rgba(21, 138, 25, 0.779);
+    height: 22px;
+    width: 100%;
+    padding-top: 50px;
+}
+ol li{
+    color: white;
+    display: inline;
+    word-spacing: 5px;
+    padding: 5px;
+}
+ol li:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.386);
+}
+
+#tutorials:hover{
+scroll-behavior: smooth;
+
+}
+h1
+{
+    font-size: 50px;
+}
+#cs{
+background-color: black;
+}
+#c1{
+    background-color: blueviolet;
+}
+.div2 {
+    display: grid;
+    grid-template-columns: 100px 800px;
+    column-gap: 45px;
+    background-color: rgba(0, 0, 255, 0.403);
+ }
+
+ #aa{
+    background-color: blueviolet;
+ }
+.div3{
+    display: grid;
+    column-gap: 90px;
+    grid-template-columns:repeat(auto-fit,minmax(200px, 1fr));
+}
+.div3 p{
+    background-color: blueviolet;
+    padding: 20px;
+}
